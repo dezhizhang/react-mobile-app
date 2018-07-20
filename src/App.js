@@ -6,17 +6,18 @@ import Login from './view/login/Login'
 import Message from './view/message/Message'
 import Teacher from './view/teacher/Teacher'
 import Worker from './view/worker/Worker'
+import './common/css/style.css'
 class App extends Component {
   render() {
     return (
       <div>
         <Switch>
           <Route path='/' component={Home} exact/>
-          <Route path='/course' component={Course}/>
-          <Route path='/login' component={Login}/>
-          <Route path='/message' component={Message}/>
-          <Route path='/teacher' component={Teacher}/>
-          <Route path='/worker' component={Worker}/>
+          <Route path='/course' component={Course} exact/>
+          <Route path='/login' component={Login} exact/>
+          <Route path='/message' component={Message} exact/>
+          <Route path='/teacher' component={Teacher} exact/>
+          <Route path='/worker' component={Worker} exact/>
         </Switch>
       </div>
     );
