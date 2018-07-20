@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Header from '../../common/components/Header'
 class Home extends React.Component{
     render(){
         return (<div>
-            我是首页
+           <Header/>
         </div>)
     }
 }

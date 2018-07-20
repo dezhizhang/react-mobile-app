@@ -1,0 +1,35 @@
+.header{
+    height: .9rem;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    background: #db3f3e;
+    margin: 0;
+    padding: 0;
+}
+
+.header-right{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: .8rem;
+    height: .9rem;
+    background: red;
+
+}
+
+.header-logo{
+    width: 1.84rem;
+    margin: 0.23rem auto;
+    display: block;
+    color: #fff;
+}
+
+.header-left{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: .9rem;
+    height: .9rem;
+    background: yellow
+}
