@@ -7,7 +7,7 @@ class Header extends React.Component{
         return(<div className='header'>
             {login?  <Link to='/login' className='header-right iconfont icon-denglu'></Link>:''}
             {/* <Link to='/login' className='header-right iconfont icon-denglu'></Link> */}
-            <span className='header-logo'>好利来科技</span>
+            <span className='header-logo'>哈哈商城</span>
             {menu ?  <a href='javascript:;' className='header-left iconfont icon-kechengguanli'></a>:''}
             {/* <a href='javascript:;' className='header-left iconfont icon-caidan'></a> */}
             {/* <a href='javascript:;' className='header-left iconfont icon-htmal5icon37'></a> */}

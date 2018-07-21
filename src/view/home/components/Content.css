@@ -1,0 +1,39 @@
+.content-list{
+    float: left;
+    margin-top: .5rem;
+    
+}
+
+.content-list li{
+    float: left;
+    width: 48vw;
+    height: 50vw;
+    border: 1px solid #ccc;
+    padding: .04rem;
+    text-align: center;
+
+}
+.content-list li img{
+    width: 48vw;
+    height: 40vw;
+    display: block;
+    
+}
+
+.content-list li a{
+    width: 2rem;
+    height: .6rem;
+    display: block;
+    background: #db3f3e;
+    text-align: center;
+    border-radius: .3rem;
+    margin: .1rem auto;
+    line-height: .6rem;
+    color: #fff;
+    font-size: .2rem;
+
+
+
+}
+
+
