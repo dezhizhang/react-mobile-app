@@ -8,6 +8,7 @@
     padding: 1.2rem .9rem;
     background: url(http://pic.qiantucdn.com/58pic/28/17/91/59758PICdQS_1024.jpg!/fw/1024/watermark/url/L2ltYWdlcy93YXRlcm1hcmsvZGF0dS5wbmc=/repeat/true/crop/0x1024a0a0) no-repeat;
     background-size: cover;
+    z-index: 1;
 
 }
 
