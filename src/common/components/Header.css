@@ -6,6 +6,7 @@
     background: #db3f3e;
     margin: 0;
     padding: 0;
+    z-index: 100;
 }
 
 .header-right{
