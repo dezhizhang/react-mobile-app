@@ -10,12 +10,20 @@
 
 .header-right{
     position: absolute;
-    left: 0;
+    right: 0;
     top: 0;
     width: .8rem;
     height: .9rem;
-    background: red;
+    line-height: .9rem;
+    text-align: center;
+    color: #fff;
 
+
+}
+
+
+.icon-denglu:before{
+    font-size: .5rem;
 }
 
 .header-logo{
@@ -28,8 +36,15 @@
 .header-left{
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: .9rem;
     height: .9rem;
-    background: yellow
+    text-align: center;
+    line-height: .9rem;
+    color: #fff;
+}
+
+.icon-kechengguanli:before{
+    font-size: .5rem;
+    color: #fff;
 }

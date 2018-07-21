@@ -7,6 +7,7 @@ import Message from './view/message/Message'
 import Teacher from './view/teacher/Teacher'
 import Worker from './view/worker/Worker'
 import './common/css/style.css'
+import './common/css/iconfont.css'
 class App extends Component {
   render() {
     return (
