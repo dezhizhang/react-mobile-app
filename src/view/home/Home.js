@@ -3,6 +3,7 @@ import Header from '../../common/components/Header'
 import Menu from '../../common/components/Menu'
 import Nav from '../../common/components/Nav'
 import Content from './components/Content'
+import Detail from './components/Detail'
 class Home extends React.Component{
     render(){
         return (<div>
@@ -12,6 +13,7 @@ class Home extends React.Component{
            />
            <Nav/>
            <Content/>
+           <Detail/>
         </div>)
     }
 }
