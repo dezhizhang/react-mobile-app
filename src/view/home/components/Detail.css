@@ -1,5 +1,10 @@
-.detail{
-    padding: .24rem .2rem .2rem;
+.list-iconfont{
     width: 100vw;
     height: 50vw;
+    background: red;
+   overflow: hidden;
+}
+
+.iconfont{
+
 }

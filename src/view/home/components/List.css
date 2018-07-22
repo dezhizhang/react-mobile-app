@@ -1,0 +1,52 @@
+
+.title{
+    width: 100vw;
+    height: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 1rem;
+
+
+
+}
+
+.list-image{
+    float: left;
+    border: .01rem solid #999;
+    background: #fff;
+
+
+}
+
+.list-image img{
+    width: 48vw;
+    height: 40vw;
+    padding: .06rem;
+
+
+}
+.descript{
+    color:#ccc;
+    text-indent: .1rem;
+    padding: .1rem;
+
+}
+
+.list-image a{
+    float: left;
+    color: #ccc;
+    display: block;
+    margin-top: -.5rem
+
+}
+
+.list-image a:nth-of-type(1){
+    margin-left: 1.4rem;
+
+}
+
+.list-image a:nth-of-type(2){
+    margin-left: .6rem;
+
+}

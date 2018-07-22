@@ -4,6 +4,7 @@ import Menu from '../../common/components/Menu'
 import Nav from '../../common/components/Nav'
 import Content from './components/Content'
 import Detail from './components/Detail'
+import List from './components/List'
 class Home extends React.Component{
     render(){
         return (<div>
@@ -14,6 +15,7 @@ class Home extends React.Component{
            <Nav/>
            <Content/>
            <Detail/>
+           <List/>
         </div>)
     }
 }

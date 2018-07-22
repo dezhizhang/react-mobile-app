@@ -13,11 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-62:before { content: "\e64c"; }
+
 .icon-htmal5icon37:before { content: "\e629"; }
 
 .icon-shouye:before { content: "\e61c"; }
 
 .icon-mima1:before { content: "\e64b"; }
+
+.icon-iconfontzhizuobiaozhun44:before { content: "\e62b"; }
 
 .icon-jiaolian1:before { content: "\e69d"; }
 
@@ -36,4 +40,5 @@
 .icon-feiji:before { content: "\e614"; }
 
 .icon-zuanshi:before { content: "\e628"; }
+
 
